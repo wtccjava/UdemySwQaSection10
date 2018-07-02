@@ -10,3 +10,8 @@ Feature: Test that pages have the correct content
     Given I am on the homepage
     Then There is a title shown on the page
     And The title tag has content "This is the homepage"
+
+  Scenario: Blog page loads the posts
+    Given I am on the blog page
+    Then I can see there is a posts section on the page
+
